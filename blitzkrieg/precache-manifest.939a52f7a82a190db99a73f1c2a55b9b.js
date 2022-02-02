@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/tactical-advantage.ccfb9f15.png"
   },
   {
-    "revision": "022984cde82f1b06144a0ce42b92495c",
+    "revision": "d3eb695eef57eff79662d7d4e514851a",
     "url": "index.html"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/index.3304d79b.js"
   },
   {
-    "revision": "b9ba04b5a3b4af4c73c5faf9c47d087b",
+    "revision": "de21d248fdf00fc59d521c8a3d03f973",
     "url": "manifest.json"
   },
   {
