@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.9454f4e1989109fc0e74ac85c25a3b34.js"
+  "precache-manifest.eafa18a9a56c153d5cd4ff867f7df758.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "@brdgm/blitzkrieg-solo-helper"});

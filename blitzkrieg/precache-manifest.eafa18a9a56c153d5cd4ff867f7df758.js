@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/chunk-vendors.5d3035bc.css"
   },
   {
-    "revision": "54fdaaec18b5bfa5e4fb",
-    "url": "css/index.a6d4bf29.css"
+    "revision": "d85c1a7a5d29709a8a92",
+    "url": "css/index.b6ac7557.css"
   },
   {
     "revision": "5f7519e94e8c6a9ccb86d1336ce4a05b",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/tactical-advantage.ccfb9f15.png"
   },
   {
-    "revision": "fe300f4cd96331391677ccbc094f37ff",
+    "revision": "081673539d9088202e3543d0edeb3109",
     "url": "index.html"
   },
   {
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/chunk-vendors.2ea7b404.js"
   },
   {
-    "revision": "54fdaaec18b5bfa5e4fb",
-    "url": "js/index.a7c2b820.js"
+    "revision": "d85c1a7a5d29709a8a92",
+    "url": "js/index.d281ff82.js"
   },
   {
     "revision": "e3c37f9bf11d69f58cee6a9591fbd01b",
