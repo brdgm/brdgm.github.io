@@ -4,13 +4,18 @@
 }
 .header img {
   width: 100%;
-  min-width: 30rem;
-  max-width: 75rem;
+  max-height: 11rem;
+  object-fit: scale-down;
 }
 
 .sidebar {
+  position: fixed;
   width: 8rem;
   background-color: #000;
+  border-bottom-right-radius: 1rem;
+}
+.sidebar + * {
+  margin-left: 8rem;
 }
 .sidebar .logo {
   display: inline;
@@ -18,12 +23,15 @@
   white-space: nowrap;
 }
 .sidebar .logo .icon {
-  margin-top:1rem;
+  margin-top: 1rem;
   width: 5.5rem;
 }
 .sidebar .logo .title {
   font-family: Lucida Console, monospace;
   font-size: 1rem;
+}
+.sidebar .menuOpener {
+  display: none;
 }
 .sidebar a, .sidebar a:hover, .sidebar a:visited, .sidebar a:active {
   color: #fff;
@@ -36,6 +44,57 @@
 }
 .sidebar .sidebarLink.active {
   font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 2.5rem;
+  }
+  .sidebar:hover, .sidebar.open {
+    width: 8rem;
+  }
+  .sidebar + * {
+    margin-left: 2.5rem;
+  }
+  .sidebar:hover + *, .sidebar.open + * {
+    margin-left: 8rem;
+  }
+  .sidebar .logo .icon {
+    width: 2rem;
+    margin-left: -0.5rem;
+  }
+  .sidebar:hover .logo .icon, .sidebar.open .logo .icon {
+    width: 5.5rem;
+    margin-left: 0rem;
+  }
+  .sidebar .logo .title {
+    font-size: 0.4rem;
+    margin-left: -0.5rem;
+  }
+  .sidebar:hover .logo .title, .sidebar.open .logo .title {
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+  .sidebar .menuOpener {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("../images/burger-menu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .sidebar:hover .menuOpener, .sidebar.open .menuOpener {
+    display: none;
+  }
+  .sidebar .sidebarLink {
+    display: none;
+  }
+  .sidebar:hover .sidebarLink, .sidebar.open .sidebarLink {
+    display: block;
+  }
 }
 
 .game-card {
