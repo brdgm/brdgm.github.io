@@ -50,20 +50,20 @@
   .sidebar {
     width: 2.5rem;
   }
-  .sidebar:hover, .sidebar.open {
+  .sidebar.open {
     width: 8rem;
   }
   .sidebar + * {
     margin-left: 2.5rem;
   }
-  .sidebar:hover + *, .sidebar.open + * {
+  .sidebar.open + * {
     margin-left: 8rem;
   }
   .sidebar .logo .icon {
     width: 2rem;
     margin-left: -0.5rem;
   }
-  .sidebar:hover .logo .icon, .sidebar.open .logo .icon {
+  .sidebar.open .logo .icon {
     width: 5.5rem;
     margin-left: 0rem;
   }
@@ -71,7 +71,7 @@
     font-size: 0.4rem;
     margin-left: -0.5rem;
   }
-  .sidebar:hover .logo .title, .sidebar.open .logo .title {
+  .sidebar.open .logo .title {
     font-size: 1rem;
     margin-left: 0rem;
   }
@@ -86,13 +86,13 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .sidebar:hover .menuOpener, .sidebar.open .menuOpener {
+  .sidebar.open .menuOpener {
     display: none;
   }
   .sidebar .sidebarLink {
     display: none;
   }
-  .sidebar:hover .sidebarLink, .sidebar.open .sidebarLink {
+  .sidebar.open .sidebarLink {
     display: block;
   }
 }
