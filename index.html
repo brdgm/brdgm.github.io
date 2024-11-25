@@ -26,6 +26,55 @@
       })();
     </script>
     <!-- End Matomo Code -->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row flex-nowrap">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <div class="mb-auto text-center">
+            <a href="/" class="logo">
+              <img class="icon" src="resources/images/icon/sidebar-logo.svg" alt="">
+              <div class="title">brdgm.me</div>
+            </a>
+            <div class="menuOpener"></div>
+            <div class="sidebarLink active text-start">
+              <a href="/">Games</a>
+            </div>
+            <div class="sidebarLink text-start">
+              <a href="others.html">Others</a>
+            </div>
+            <div class="sidebarLink text-start">
+              <a href="about.html">About</a>
+            </div>
+            <div class="sidebarLink text-start">
+              <a href="https://ko-fi.com/brdgm_me" target="_blank">Donate</a>
+            </div>
+            <div class="sidebarLink text-start mb-3">
+              <a href="imprint.html">Imprint</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col p-0">
+          <!-- Header image -->
+          <div class="header shadow-sm">
+            <img src="resources/images/top-image.webp" alt="">
+          </div>
+
+          <!-- Content -->
+          <div id="games-content-container" class="container-fluid mt-3 mb-5 ps-3">
+
+            <h1>Board Game Solo Apps</h1>
+            <p>Web applications for playing board game's solo modes.</p>
+
+            <!-- The game cards will be dynamically inserted here by JavaScript -->
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <script>
       const games = [
@@ -197,55 +246,6 @@
         });
       });
     </script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row flex-nowrap">
-
-        <!-- Sidebar -->
-        <div class="sidebar">
-          <div class="mb-auto text-center">
-            <a href="/" class="logo">
-              <img class="icon" src="resources/images/icon/sidebar-logo.svg" alt="">
-              <div class="title">brdgm.me</div>
-            </a>
-            <div class="menuOpener"></div>
-            <div class="sidebarLink active text-start">
-              <a href="/">Games</a>
-            </div>
-            <div class="sidebarLink text-start">
-              <a href="others.html">Others</a>
-            </div>
-            <div class="sidebarLink text-start">
-              <a href="about.html">About</a>
-            </div>
-            <div class="sidebarLink text-start">
-              <a href="https://ko-fi.com/brdgm_me" target="_blank">Donate</a>
-            </div>
-            <div class="sidebarLink text-start mb-3">
-              <a href="imprint.html">Imprint</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col p-0">
-          <!-- Header image -->
-          <div class="header shadow-sm">
-            <img src="resources/images/top-image.webp" alt="">
-          </div>
-
-          <!-- Content -->
-          <div id="games-content-container" class="container-fluid mt-3 mb-5 ps-3">
-
-            <h1>Board Game Solo Apps</h1>
-            <p>Web applications for playing board game's solo modes.</p>
-
-            <!-- The game cards will be dynamically inserted here by JavaScript -->
-          </div>
-
-        </div>
-      </div>
-    </div>
 
     <script src="resources/js/bootstrap.bundle.min.js"></script>
     <script src="resources/js/menu.js"></script>
