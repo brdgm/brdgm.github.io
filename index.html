@@ -26,6 +26,200 @@
       })();
     </script>
     <!-- End Matomo Code -->
+
+    <script>
+      const games = [
+        {
+          title: "Blitzkrieg!",
+          image: "resources/images/games/blitzkrieg.webp",
+          url: "https://brdgm.me/blitzkrieg",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Monumental",
+          image: "resources/images/games/monumental.webp",
+          url: "https://brdgm.me/monumental",
+          languages: ["EN", "FR"]
+        },
+        {
+          title: "Rurik: Dawn of Kiev",
+          image: "resources/images/games/rurik.webp",
+          url: "https://brdgm.me/rurik",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Ark Nova",
+          image: "resources/images/games/ark-nova.webp",
+          url: "https://brdgm.me/ark-nova",
+          languages: ["EN", "DE", "CA", "CN", "ES", "FR", "IT", "NL", "PL"]
+        },
+        {
+          title: "Terra Mystica",
+          image: "resources/images/games/terra-mystica.webp",
+          url: "https://brdgm.me/terra-mystica",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Stroganov",
+          image: "resources/images/games/stroganov.webp",
+          url: "https://brdgm.me/stroganov",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Joan of Arc: Orléans",
+          image: "resources/images/games/joan-of-arc-orleans.webp",
+          url: "https://brdgm.me/joan-of-arc-orleans",
+          languages: ["IT", "EN", "DE"]
+        },
+        {
+          title: "Skymines",
+          image: "resources/images/games/skymines.webp",
+          url: "https://brdgm.me/skymines",
+          languages: ["EN", "DE", "CA", "FR"]
+        },
+        {
+          title: "Weather Machine",
+          image: "resources/images/games/weather-machine.webp",
+          url: "https://brdgm.me/weather-machine",
+          languages: ["EN", "DE", "ES", "FR", "PL"]
+        },
+        {
+          title: "Autobahn",
+          image: "resources/images/games/autobahn.webp",
+          url: "https://brdgm.me/autobahn",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Praga Caput Regni",
+          image: "resources/images/games/praga-caput-regni.webp",
+          url: "https://brdgm.me/praga-caput-regni/",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Ultimate Railroads",
+          image: "resources/images/games/ultimate-railroads.webp",
+          url: "https://brdgm.me/ultimate-railroads/",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Roll for the Galaxy",
+          image: "resources/images/games/roll-for-the-galaxy.webp",
+          url: "https://brdgm.me/roll-for-the-galaxy",
+          languages: ["IT", "EN", "DE"]
+        },
+        {
+          title: "Carnegie",
+          image: "resources/images/games/carnegie.webp",
+          url: "https://brdgm.me/carnegie",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Fractal",
+          image: "resources/images/games/fractal.webp",
+          url: "https://brdgm.me/fractal",
+          languages: ["EN", "FR"]
+        },
+        {
+          title: "Welcome to the Moon",
+          image: "resources/images/games/welcome-to-the-moon.webp",
+          url: "https://brdgm.me/welcome-to-the-moon",
+          languages: ["EN", "DE", "ES", "FR", "RU"]
+        },
+        {
+          title: "Gaia Project",
+          image: "resources/images/games/gaia-project.webp",
+          url: "https://brdgm.me/gaia-project",
+          languages: ["EN", "DE", "ES", "FR", "IT"]
+        },
+        {
+          title: "El Burro",
+          image: "resources/images/games/el-burro.webp",
+          url: "https://brdgm.me/el-burro",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Apiary",
+          image: "resources/images/games/apiary.webp",
+          url: "https://brdgm.me/apiary",
+          languages: ["EN", "DE"]
+        },
+        {
+          title: "Barrage",
+          image: "resources/images/games/barrage.webp",
+          url: "https://brdgm.me/barrage",
+          languages: ["IT", "EN", "DE"]
+        },
+        {
+          title: "Age of Innovation",
+          image: "resources/images/games/age-of-innovation.webp",
+          url: "https://brdgm.me/age-of-innovation",
+          languages: ["ES", "EN", "DE"]
+        },
+        {
+          title: "DinoGenics",
+          image: "resources/images/games/dinogenics.webp",
+          url: "https://brdgm.me/dinogenics",
+          languages: ["EN"]
+        },
+        {
+          title: "Civolution",
+          image: "resources/images/games/civolution.webp",
+          url: "https://brdgm.me/civolution",
+          languages: ["EN", "DE"],
+          new: true
+        },
+      ];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const container = document.querySelector(".container-fluid.mt-3.mb-5.ps-3");
+        games.forEach(game => {
+          const card = document.createElement("div");
+          card.className = "card game-card shadow";
+          
+          if (game.new) {
+            const ribbon = document.createElement("div");
+            ribbon.className = "ribbon";
+            ribbon.textContent = "NEW";
+            card.appendChild(ribbon);
+          }
+
+          const langDiv = document.createElement("div");
+          langDiv.className = "lang";
+          game.languages.forEach(lang => {
+            const badge = document.createElement("div");
+            badge.className = "badge";
+            badge.textContent = lang;
+            langDiv.appendChild(badge);
+          });
+          card.appendChild(langDiv);
+
+          const link = document.createElement("a");
+          link.href = game.url;
+          const img = document.createElement("img");
+          img.src = game.image;
+          img.className = "card-img-top";
+          img.alt = game.title;
+          link.appendChild(img);
+          card.appendChild(link);
+
+          const cardBody = document.createElement("div");
+          cardBody.className = "card-body";
+          const cardTitle = document.createElement("h5");
+          cardTitle.className = "card-title";
+          cardTitle.textContent = game.title;
+          cardBody.appendChild(cardTitle);
+
+          const playButton = document.createElement("a");
+          playButton.href = game.url;
+          playButton.className = "btn btn-primary";
+          playButton.textContent = "Play Solo";
+          cardBody.appendChild(playButton);
+
+          card.appendChild(cardBody);
+          container.appendChild(card);
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="container-fluid">
@@ -68,372 +262,9 @@
 
             <h1>Board Game Solo Apps</h1>
             <p>Web applications for playing board game's solo modes.</p>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">ES</div>
-              </div>
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/age-of-innovation">
-                <img src="resources/images/games/age-of-innovation.webp" class="card-img-top" alt="Age of Innovation">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Age of Innovation</h5>
-                <a href="https://brdgm.me/age-of-innovation" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/apiary">
-                <img src="resources/images/games/apiary.webp" class="card-img-top" alt="Apiary">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Apiary</h5>
-                <a href="https://brdgm.me/apiary" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col3">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-                <div class="badge">CA</div>
-              </div>
-              <div class="lang col2">
-                <div class="badge">CN</div>
-                <div class="badge">ES</div>
-                <div class="badge">FR</div>
-              </div>
-              <div class="lang">
-                <div class="badge">IT</div>
-                <div class="badge">NL</div>
-                <div class="badge">PL</div>
-              </div>
-              <a href="https://brdgm.me/ark-nova">
-                <img src="resources/images/games/ark-nova.webp" class="card-img-top" alt="Ark Nova">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Ark Nova</h5>
-                <a href="https://brdgm.me/ark-nova" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/autobahn">
-                <img src="resources/images/games/autobahn.webp" class="card-img-top" alt="Autobahn">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Autobahn</h5>
-                <a href="https://brdgm.me/autobahn" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">IT</div>
-              </div>
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/barrage">
-                <img src="resources/images/games/barrage.webp" class="card-img-top" alt="Barrage">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Barrage</h5>
-                <a href="https://brdgm.me/barrage" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/blitzkrieg">
-                <img src="resources/images/games/blitzkrieg.webp" class="card-img-top" alt="Blitzkrieg!">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Blitzkrieg!</h5>
-                <a href="https://brdgm.me/blitzkrieg" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/carnegie">
-                <img src="resources/images/games/carnegie.webp" class="card-img-top" alt="Carnegie">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Carnegie</h5>
-                <a href="https://brdgm.me/carnegie" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="ribbon">NEW</div>
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/civolution">
-                <img src="resources/images/games/civolution.webp" class="card-img-top" alt="Civolution">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Civolution</h5>
-                <a href="https://brdgm.me/civolution" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/el-burro">
-                <img src="resources/images/games/el-burro.webp" class="card-img-top" alt="El Burro">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">El Burro</h5>
-                <a href="https://brdgm.me/el-burro" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">FR</div>
-              </div>
-              <a href="https://brdgm.me/fractal">
-                <img src="resources/images/games/fractal.webp" class="card-img-top border" alt="Carnegie">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Fractal</h5>
-                <a href="https://brdgm.me/fractal" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-              </div>
-              <a href="https://brdgm.me/dinogenics">
-                <img src="resources/images/games/dinogenics.webp" class="card-img-top" alt="DinoGenics">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">DinoGenics</h5>
-                <a href="https://brdgm.me/dinogenics" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <div class="lang">
-                <div class="badge">ES</div>
-                <div class="badge">FR</div>
-                <div class="badge">IT</div>
-              </div>
-              <a href="https://brdgm.me/gaia-project">
-                <img src="resources/images/games/gaia-project.webp" class="card-img-top" alt="Gaia Project">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Gaia Project</h5>
-                <a href="https://brdgm.me/gaia-project" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">IT</div>
-              </div>
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/joan-of-arc-orleans">
-                <img src="resources/images/games/joan-of-arc-orleans.webp" class="card-img-top" alt="Joan of Arc: Orléans">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Joan of Arc: Orléans</h5>
-                <a href="https://brdgm.me/joan-of-arc-orleans" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">FR</div>
-              </div>
-              <a href="https://brdgm.me/monumental">
-                <img src="resources/images/games/monumental.webp" class="card-img-top" alt="Monumental">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Monumental</h5>
-                <a href="https://brdgm.me/monumental" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/praga-caput-regni/">
-                <img src="resources/images/games/praga-caput-regni.webp" class="card-img-top" alt="Praga Caput Regni">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Praga Caput Regni</h5>
-                <a href="https://brdgm.me/praga-caput-regni/" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">IT</div>
-              </div>
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/roll-for-the-galaxy">
-                <img src="resources/images/games/roll-for-the-galaxy.webp" class="card-img-top" alt="Roll for the Galaxy">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Roll for the Galaxy</h5>
-                <a href="https://brdgm.me/roll-for-the-galaxy" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/rurik">
-                <img src="resources/images/games/rurik.webp" class="card-img-top" alt="Rurik: Dawn of Kiev">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Rurik: Dawn of Kiev</h5>
-                <a href="https://brdgm.me/rurik" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <div class="lang">
-                <div class="badge">CA</div>
-                <div class="badge">FR</div>
-              </div>
-              <a href="https://brdgm.me/skymines">
-                <img src="resources/images/games/skymines.webp" class="card-img-top" alt="Skymines">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Skymines</h5>
-                <a href="https://brdgm.me/skymines" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/stroganov">
-                <img src="resources/images/games/stroganov.webp" class="card-img-top" alt="Stroganov">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Stroganov</h5>
-                <a href="https://brdgm.me/stroganov" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/terra-mystica">
-                <img src="resources/images/games/terra-mystica.webp" class="card-img-top" alt="Terra Mystica">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Terra Mystica</h5>
-                <a href="https://brdgm.me/terra-mystica" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <a href="https://brdgm.me/ultimate-railroads/">
-                <img src="resources/images/games/ultimate-railroads.webp" class="card-img-top" alt="Ultimate Railroads">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Ultimate Railroads</h5>
-                <a href="https://brdgm.me/ultimate-railroads/" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <div class="lang">
-                <div class="badge">ES</div>
-                <div class="badge">FR</div>
-                <div class="badge">PL</div>
-              </div>
-              <a href="https://brdgm.me/weather-machine">
-                <img src="resources/images/games/weather-machine.webp" class="card-img-top" alt="Weather Machine">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Weather Machine</h5>
-                <a href="https://brdgm.me/weather-machine" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
-            <div class="card game-card shadow">
-              <div class="lang col2">
-                <div class="badge">EN</div>
-                <div class="badge">DE</div>
-              </div>
-              <div class="lang">
-                <div class="badge">ES</div>
-                <div class="badge">FR</div>
-                <div class="badge">RU</div>
-              </div>
-              <a href="https://brdgm.me/welcome-to-the-moon">
-                <img src="resources/images/games/welcome-to-the-moon.webp" class="card-img-top" alt="Welcome to the Moon">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Welcome to the Moon</h5>
-                <a href="https://brdgm.me/welcome-to-the-moon" class="btn btn-primary">Play Solo</a>
-              </div>
-            </div>
-
+            <!-- The game cards will be dynamically inserted here by JavaScript -->
           </div>
+
         </div>
       </div>
     </div>
