@@ -30,148 +30,125 @@
     <script>
       const games = [
         {
+          name: "blitzkrieg",
           title: "Blitzkrieg!",
-          image: "resources/images/games/blitzkrieg.webp",
-          url: "https://brdgm.me/blitzkrieg",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "monumental",
           title: "Monumental",
-          image: "resources/images/games/monumental.webp",
-          url: "https://brdgm.me/monumental",
-          languages: ["EN", "FR"]
+          languages: ["en", "fr"]
         },
         {
+          name: "rurik",
           title: "Rurik: Dawn of Kiev",
-          image: "resources/images/games/rurik.webp",
-          url: "https://brdgm.me/rurik",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "ark-nova",
           title: "Ark Nova",
-          image: "resources/images/games/ark-nova.webp",
-          url: "https://brdgm.me/ark-nova",
-          languages: ["EN", "DE", "CA", "CN", "ES", "FR", "IT", "NL", "PL"]
+          languages: ["en", "de", "ca", "cn", "es", "fr", "it", "nl", "pl"]
         },
         {
+          name: "terra-mystica",
           title: "Terra Mystica",
-          image: "resources/images/games/terra-mystica.webp",
-          url: "https://brdgm.me/terra-mystica",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "stroganov",
           title: "Stroganov",
-          image: "resources/images/games/stroganov.webp",
-          url: "https://brdgm.me/stroganov",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "joan-of-arc-orleans",
           title: "Joan of Arc: Orléans",
-          image: "resources/images/games/joan-of-arc-orleans.webp",
-          url: "https://brdgm.me/joan-of-arc-orleans",
-          languages: ["IT", "EN", "DE"]
+          languages: ["it", "en", "de"]
         },
         {
+          name: "skymines",
           title: "Skymines",
-          image: "resources/images/games/skymines.webp",
-          url: "https://brdgm.me/skymines",
-          languages: ["EN", "DE", "CA", "FR"]
+          languages: ["en", "de", "ca", "fr"]
         },
         {
+          name: "weather-machine",
           title: "Weather Machine",
-          image: "resources/images/games/weather-machine.webp",
-          url: "https://brdgm.me/weather-machine",
-          languages: ["EN", "DE", "ES", "FR", "PL"]
+          languages: ["en", "de", "es", "fr", "pl"]
         },
         {
+          name: "autobahn",
           title: "Autobahn",
-          image: "resources/images/games/autobahn.webp",
-          url: "https://brdgm.me/autobahn",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "praga-caput-regni",
           title: "Praga Caput Regni",
-          image: "resources/images/games/praga-caput-regni.webp",
-          url: "https://brdgm.me/praga-caput-regni/",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "ultimate-railroads",
           title: "Ultimate Railroads",
-          image: "resources/images/games/ultimate-railroads.webp",
-          url: "https://brdgm.me/ultimate-railroads/",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "roll-for-the-galaxy",
           title: "Roll for the Galaxy",
-          image: "resources/images/games/roll-for-the-galaxy.webp",
-          url: "https://brdgm.me/roll-for-the-galaxy",
-          languages: ["IT", "EN", "DE"]
+          languages: ["it", "en", "de"]
         },
         {
+          name: "carnegie",
           title: "Carnegie",
-          image: "resources/images/games/carnegie.webp",
-          url: "https://brdgm.me/carnegie",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "fractal",
           title: "Fractal",
-          image: "resources/images/games/fractal.webp",
-          url: "https://brdgm.me/fractal",
-          languages: ["EN", "FR"]
+          languages: ["en", "fr"]
         },
         {
+          name: "welcome-to-the-moon",
           title: "Welcome to the Moon",
-          image: "resources/images/games/welcome-to-the-moon.webp",
-          url: "https://brdgm.me/welcome-to-the-moon",
-          languages: ["EN", "DE", "ES", "FR", "RU"]
+          languages: ["en", "de", "es", "fr", "ru"]
         },
         {
+          name: "gaia-project",
           title: "Gaia Project",
-          image: "resources/images/games/gaia-project.webp",
-          url: "https://brdgm.me/gaia-project",
-          languages: ["EN", "DE", "ES", "FR", "IT"]
+          languages: ["en", "de", "es", "fr", "it"]
         },
         {
+          name: "el-burro",
           title: "El Burro",
-          image: "resources/images/games/el-burro.webp",
-          url: "https://brdgm.me/el-burro",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "apiary",
           title: "Apiary",
-          image: "resources/images/games/apiary.webp",
-          url: "https://brdgm.me/apiary",
-          languages: ["EN", "DE"]
+          languages: ["en", "de"]
         },
         {
+          name: "barrage",
           title: "Barrage",
-          image: "resources/images/games/barrage.webp",
-          url: "https://brdgm.me/barrage",
-          languages: ["IT", "EN", "DE"]
+          languages: ["it", "en", "de"]
         },
         {
+          name: "age-of-innovation",
           title: "Age of Innovation",
-          image: "resources/images/games/age-of-innovation.webp",
-          url: "https://brdgm.me/age-of-innovation",
-          languages: ["ES", "EN", "DE"]
+          languages: ["es", "en", "de"]
         },
         {
+          name: "dinogenics",
           title: "DinoGenics",
-          image: "resources/images/games/dinogenics.webp",
-          url: "https://brdgm.me/dinogenics",
-          languages: ["EN"]
+          languages: ["en"]
         },
         {
+          name: "civolution",
           title: "Civolution",
-          image: "resources/images/games/civolution.webp",
-          url: "https://brdgm.me/civolution",
-          languages: ["EN", "DE"],
+          languages: ["en", "de"],
           new: true
         },
       ];
 
       document.addEventListener("DOMContentLoaded", () => {
-        const container = document.querySelector(".container-fluid.mt-3.mb-5.ps-3");
+        const container = document.querySelector("#games-content-container");
         games.forEach(game => {
           const card = document.createElement("div");
           card.className = "card game-card shadow";
@@ -188,15 +165,15 @@
           game.languages.forEach(lang => {
             const badge = document.createElement("div");
             badge.className = "badge";
-            badge.textContent = lang;
+            badge.textContent = lang.toUpperCase();
             langDiv.appendChild(badge);
           });
           card.appendChild(langDiv);
 
           const link = document.createElement("a");
-          link.href = game.url;
+          link.href = `https://brdgm.me/${game.name}`;
           const img = document.createElement("img");
-          img.src = game.image;
+          img.src = `resources/images/games/${game.name}.webp`;
           img.className = "card-img-top";
           img.alt = game.title;
           link.appendChild(img);
@@ -210,7 +187,7 @@
           cardBody.appendChild(cardTitle);
 
           const playButton = document.createElement("a");
-          playButton.href = game.url;
+          playButton.href = `https://brdgm.me/${game.name}`;
           playButton.className = "btn btn-primary";
           playButton.textContent = "Play Solo";
           cardBody.appendChild(playButton);
@@ -258,10 +235,11 @@
           </div>
 
           <!-- Content -->
-          <div class="container-fluid mt-3 mb-5 ps-3">
+          <div id="games-content-container" class="container-fluid mt-3 mb-5 ps-3">
 
             <h1>Board Game Solo Apps</h1>
             <p>Web applications for playing board game's solo modes.</p>
+
             <!-- The game cards will be dynamically inserted here by JavaScript -->
           </div>
 
