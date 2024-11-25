@@ -97,6 +97,10 @@
   }
 }
 
+#game-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
 .game-card {
   width: 14rem;
   float: left;

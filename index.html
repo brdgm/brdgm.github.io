@@ -64,12 +64,12 @@
           </div>
 
           <!-- Content -->
-          <div id="games-content-container" class="container-fluid mt-3 mb-5 ps-3">
+          <div class="container-fluid mt-3 mb-5 ps-3">
 
             <h1>Board Game Solo Apps</h1>
             <p>Web applications for playing board game's solo modes.</p>
 
-            <!-- The game cards will be dynamically inserted here by JavaScript -->
+            <div id="game-cards"></div>
           </div>
 
         </div>
@@ -197,7 +197,8 @@
       ];
 
       document.addEventListener("DOMContentLoaded", () => {
-        const container = document.querySelector("#games-content-container");
+        const container = document.querySelector("#game-cards");
+        games.sort((a, b) => a.title.localeCompare(b.title));
         games.forEach(game => {
           const card = document.createElement("div");
           card.className = "card game-card shadow";
@@ -211,6 +212,8 @@
 
           const langDiv = document.createElement("div");
           langDiv.className = "lang";
+          // sort languages, put en always first
+          game.languages.sort((a, b) => a=='en' ? -1 : a.localeCompare(b));
           game.languages.forEach(lang => {
             const badge = document.createElement("div");
             badge.className = "badge";
