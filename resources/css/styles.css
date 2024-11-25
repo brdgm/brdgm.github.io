@@ -123,6 +123,9 @@
   font-size: smaller;
   transform: rotate(15deg);
 }
+.game-card h5 {
+  margin-right: 1.75rem;
+}
 .game-card .lang {
   position: absolute;
   right: 0;
@@ -130,16 +133,11 @@
   font-size: smaller;
   margin: 0 1rem 1rem 0;
 }
-.game-card .lang.col2 {
-  right: 1.8rem;
-}
-.game-card .lang.col3 {
-  right: 3.7rem;
-}
 .game-card .badge {
   background-color: #bbb;
   display: block;
   margin-top: 0.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 920px) {
