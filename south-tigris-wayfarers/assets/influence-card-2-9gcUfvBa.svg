@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50.64 27.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #fff;
+        stroke-width: .75px;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-3" d="M27.94.38c-.86,0-1.56.7-1.56,1.57v23.8c0,.86.7,1.56,1.56,1.56h13.77c.87,0,1.57-.7,1.57-1.56V1.94c0-.86-.7-1.57-1.57-1.57h-13.77Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-589.01" y1="892.52" x2="-588.01" y2="892.52" gradientTransform="translate(9977.49 15092.57) scale(16.89 -16.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#674026"/>
+      <stop offset="1" stop-color="#d5a65c"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-3" points="41.47 10.64 41.47 14.6 38.05 12.6 36.27 15.87 39.62 17.79 36.27 19.65 38.05 22.92 41.47 20.92 41.47 24.81 45.07 24.81 45.07 20.92 48.48 22.92 50.26 19.65 46.99 17.79 50.26 15.87 48.48 12.6 45.07 14.6 45.07 10.64 41.47 10.64"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-589.01" y1="892.52" x2="-588.01" y2="892.52" gradientTransform="translate(-8190.13 -12468.78) rotate(-180) scale(13.99 -13.99)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231f20"/>
+      <stop offset=".1" stop-color="#231f20"/>
+      <stop offset="1" stop-color="#6d6e70"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <path class="cls-3" d="M1.94.38C1.08.38.38,1.08.38,1.94v23.8c0,.86.7,1.56,1.56,1.56h13.77c.87,0,1.57-.7,1.57-1.56V1.94c0-.86-.7-1.57-1.57-1.57H1.94Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-590.55" x2="-589.55" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-3">
+      <polygon class="cls-3" points="15.47 10.64 15.47 14.6 12.05 12.6 10.27 15.87 13.62 17.79 10.27 19.65 12.05 22.92 15.47 20.92 15.47 24.81 19.07 24.81 19.07 20.92 22.48 22.92 24.26 19.65 20.99 17.79 24.26 15.87 22.48 12.6 19.07 14.6 19.07 10.64 15.47 10.64"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-587.15" x2="-586.15" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g class="cls-11">
+      <rect class="cls-10" x="26.38" y=".38" width="16.89" height="26.93"/>
+    </g>
+    <path class="cls-4" d="M27.94.38h13.76c.86,0,1.57.7,1.57,1.57v23.8c0,.86-.7,1.56-1.56,1.56h-13.77c-.86,0-1.56-.7-1.56-1.56V1.94c0-.86.7-1.57,1.57-1.57Z"/>
+    <g class="cls-7">
+      <rect class="cls-1" x="36.27" y="10.64" width="13.99" height="14.17"/>
+    </g>
+    <polygon class="cls-2" points="36.27 15.87 38.05 12.6 41.47 14.6 41.47 10.64 45.07 10.64 45.07 14.6 48.48 12.6 50.26 15.87 46.99 17.79 50.26 19.65 48.48 22.92 45.07 20.92 45.07 24.81 41.47 24.81 41.47 20.92 38.05 22.92 36.27 19.65 39.62 17.79 36.27 15.87"/>
+  </g>
+  <g id="Layer_1_copy" data-name="Layer 1 copy">
+    <g class="cls-9">
+      <rect class="cls-6" x=".38" y=".38" width="16.89" height="26.93"/>
+    </g>
+    <path class="cls-4" d="M1.94.38h13.76c.86,0,1.57.7,1.57,1.57v23.8c0,.86-.7,1.56-1.56,1.56H1.94c-.86,0-1.56-.7-1.56-1.56V1.94C.38,1.08,1.08.38,1.94.38Z"/>
+    <g class="cls-8">
+      <rect class="cls-5" x="10.27" y="10.64" width="13.99" height="14.17"/>
+    </g>
+    <polygon class="cls-2" points="10.27 15.87 12.05 12.6 15.47 14.6 15.47 10.64 19.07 10.64 19.07 14.6 22.48 12.6 24.26 15.87 20.99 17.79 24.26 19.65 22.48 22.92 19.07 20.92 19.07 24.81 15.47 24.81 15.47 20.92 12.05 22.92 10.27 19.65 13.62 17.79 10.27 15.87"/>
+  </g>
+</svg>
