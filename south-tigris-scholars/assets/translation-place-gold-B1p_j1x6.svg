@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 39.79 39.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-4 {
+        stroke-width: .75px;
+      }
+
+      .cls-4, .cls-7, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-7 {
+        stroke: #000;
+        stroke-width: .24px;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        stroke-width: 1.42px;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-3" points="11.22 13.1 10.02 24.52 17.34 30.08 29.77 19.26 28.16 12.99 19.54 9.72 11.22 13.1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-780.26" y1="448.57" x2="-779.26" y2="448.57" gradientTransform="translate(-8127.62 14180.93) rotate(90) scale(18.16 -18.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset=".24" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#cf9810"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-3" points="10.02 24.52 17.34 30.08 18.69 17.16 11.22 13.1 10.02 24.52"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-780.26" y1="448.59" x2="-779.26" y2="448.59" gradientTransform="translate(-8719.16 -5003.14) rotate(-180) scale(11.2 -11.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset=".11" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#cf9810"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <polygon class="cls-3" points="18.56 17.16 17.34 30.08 29.77 19.26 28.16 12.99 18.56 17.16"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-780.26" y1="448.63" x2="-779.26" y2="448.63" gradientTransform="translate(-4801.14 8406.2) rotate(90) scale(10.75 -10.75)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#cf9810"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-780.26" y1="448.59" x2="-779.26" y2="448.59" gradientTransform="translate(4532.8 -7811.17) rotate(-90) scale(10.05 -10.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#cf9810"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g class="cls-12">
+      <rect class="cls-11" x="5.75" y="5.8" width="28.29" height="28.21" transform="translate(-8.14 22.35) rotate(-50)"/>
+    </g>
+    <g class="cls-9">
+      <rect class="cls-1" x="5.07" y="12.82" width="18.57" height="17.55" transform="translate(-11.41 18.71) rotate(-50)"/>
+    </g>
+    <g class="cls-10">
+      <rect class="cls-8" x="13.05" y="11.89" width="21.01" height="19.31" transform="translate(-6.87 31.17) rotate(-60)"/>
+    </g>
+    <g>
+      <polygon class="cls-4" points="19.54 9.72 11.22 13.1 10.03 24.52 17.34 30.08 29.77 19.26 28.16 12.99 19.54 9.72"/>
+      <polygon class="cls-2" points="26.91 22.17 26.91 19.11 23.75 19.11 23.75 22.17 20.37 22.17 25.33 28.51 30.29 22.17 26.91 22.17"/>
+      <polygon class="cls-6" points="26.91 22.17 26.91 22.17 26.91 19.11 23.75 19.11 23.75 22.17 20.37 22.17 25.33 28.51 30.29 22.17 26.91 22.17 26.91 22.17 26.91 22.17 30.29 22.17 25.33 28.51 20.37 22.17 23.75 22.17 23.75 19.11 26.91 19.11 26.91 22.17 26.91 22.17"/>
+    </g>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <polygon class="cls-5" points="17.85 19.9 19.52 14.37 18.48 14.37 17.35 18.53 16.17 14.37 15.17 14.37 16.8 19.9 15.17 25.43 16.17 25.43 17.35 21.27 18.48 25.43 19.52 25.43 17.85 19.9"/>
+    <polygon class="cls-7" points="17.85 19.9 19.52 14.37 18.48 14.37 17.35 18.53 16.17 14.37 15.17 14.37 16.8 19.9 15.17 25.43 16.17 25.43 17.35 21.27 18.48 25.43 19.52 25.43 17.85 19.9"/>
+  </g>
+</svg>
