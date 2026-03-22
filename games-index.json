@@ -1,0 +1,174 @@
+[
+  {
+    "name": "blitzkrieg",
+    "title": "Blitzkrieg!",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "monumental",
+    "title": "Monumental",
+    "languages": ["en","fr"]
+  },
+  {
+    "name": "rurik",
+    "title": "Rurik: Dawn of Kiev",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "ark-nova",
+    "title": "Ark Nova",
+    "languages": ["en","de","ca","cn","es","fr","it","nl","pl","pt-br","ko"]
+  },
+  {
+    "name": "terra-mystica",
+    "title": "Terra Mystica",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "stroganov",
+    "title": "Stroganov",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "joan-of-arc-orleans",
+    "title": "Joan of Arc: Orléans",
+    "languages": ["it","en","de"]
+  },
+  {
+    "name": "skymines",
+    "title": "Skymines",
+    "languages": ["en","de","ca","fr"]
+  },
+  {
+    "name": "weather-machine",
+    "title": "Weather Machine",
+    "languages": ["en","de","es","fr","pl"]
+  },
+  {
+    "name": "autobahn",
+    "title": "Autobahn",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "praga-caput-regni",
+    "title": "Praga Caput Regni",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "ultimate-railroads",
+    "title": "Ultimate Railroads",
+    "languages": ["en","de","cn"]
+  },
+  {
+    "name": "roll-for-the-galaxy",
+    "title": "Roll for the Galaxy",
+    "languages": ["it","en","de","cn"]
+  },
+  {
+    "name": "carnegie",
+    "title": "Carnegie",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "fractal",
+    "title": "Fractal",
+    "languages": ["en","fr"]
+  },
+  {
+    "name": "welcome-to-the-moon",
+    "title": "Welcome to the Moon",
+    "languages": ["en","de","es","fr","ru","ko"]
+  },
+  {
+    "name": "gaia-project",
+    "title": "Gaia Project",
+    "languages": ["en","de","es","fr","it"]
+  },
+  {
+    "name": "el-burro",
+    "title": "El Burro",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "apiary",
+    "title": "Apiary",
+    "languages": ["en","de","pt-BR"]
+  },
+  {
+    "name": "barrage",
+    "title": "Barrage",
+    "languages": ["it","en","de"]
+  },
+  {
+    "name": "age-of-innovation",
+    "title": "Age of Innovation",
+    "languages": ["es","en","de"]
+  },
+  {
+    "name": "dinogenics",
+    "title": "DinoGenics",
+    "languages": ["en"]
+  },
+  {
+    "name": "civolution",
+    "title": "Civolution",
+    "languages": ["en","de","fr","zh","es","ko","pl","it"]
+  },
+  {
+    "name": "millennia",
+    "title": "Millennia: Tracks of Time",
+    "languages": ["en","de"],
+    "new": false
+  },
+  {
+    "name": "thiefdom",
+    "title": "Thiefdom",
+    "languages": ["en","de"],
+    "new": false
+  },
+  {
+    "name": "grand-austria-hotel",
+    "title": "Grand Austria Hotel",
+    "languages": ["en","de"],
+    "new": false
+  },
+  {
+    "name": "seti",
+    "title": "SETI",
+    "languages": ["en","de","es"],
+    "new": false
+  },
+  {
+    "name": "clans-of-caledonia",
+    "title": "Clans of Caledonia",
+    "languages": ["en","de","ru"]
+  },
+  {
+    "name": "maracaibo",
+    "title": "Maracaibo",
+    "languages": ["en","de"]
+  },
+  {
+    "name": "galactic-cruise",
+    "title": "Galactic Cruise",
+    "languages": ["en","de","fr"]
+  },
+  {
+    "name": "south-tigris-wayfarers",
+    "title": "Wayfarers of the South Tigris",
+    "languages": ["en"],
+    "new": true
+  },
+  {
+    "name": "south-tigris-scholars",
+    "title": "Scholars of the South Tigris",
+    "languages": ["en"],
+    "new": true
+  },
+  {
+    "name": "south-tigris-inventors",
+    "title": "Inventors of the South Tigris",
+    "languages": ["en"],
+    "new": true
+  }
+]
