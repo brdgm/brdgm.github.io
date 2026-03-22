@@ -189,7 +189,7 @@
   {
     "name": "south-tigris-scholars",
     "title": "Scholars of the South Tigris",
-    "languages": ["en"],
+    "languages": ["en","ko"],
     "addedAt": "2025-12-10",
     "new": true
   },
