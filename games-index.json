@@ -2,173 +2,202 @@
   {
     "name": "blitzkrieg",
     "title": "Blitzkrieg!",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2022-02-01"
   },
   {
     "name": "monumental",
     "title": "Monumental",
-    "languages": ["en","fr"]
+    "languages": ["en","fr"],
+    "addedAt": "2022-02-26"
   },
   {
     "name": "rurik",
     "title": "Rurik: Dawn of Kiev",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2022-05-18"
   },
   {
     "name": "ark-nova",
     "title": "Ark Nova",
-    "languages": ["en","de","ca","cn","es","fr","it","nl","pl","pt-br","ko"]
+    "languages": ["en","de","ca","cn","es","fr","it","nl","pl","pt-br","ko"],
+    "addedAt": "2022-06-18"
   },
   {
     "name": "terra-mystica",
     "title": "Terra Mystica",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2022-07-13"
   },
   {
     "name": "stroganov",
     "title": "Stroganov",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2022-08-28"
   },
   {
     "name": "joan-of-arc-orleans",
     "title": "Joan of Arc: Orléans",
-    "languages": ["it","en","de"]
+    "languages": ["it","en","de"],
+    "addedAt": "2022-10-25"
   },
   {
     "name": "skymines",
     "title": "Skymines",
-    "languages": ["en","de","ca","fr"]
+    "languages": ["en","de","ca","fr"],
+    "addedAt": "2022-11-02"
   },
   {
     "name": "weather-machine",
     "title": "Weather Machine",
-    "languages": ["en","de","es","fr","pl"]
+    "languages": ["en","de","es","fr","pl"],
+    "addedAt": "2022-12-03"
   },
   {
     "name": "autobahn",
     "title": "Autobahn",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2023-03-22"
   },
   {
     "name": "praga-caput-regni",
     "title": "Praga Caput Regni",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2023-07-07"
   },
   {
     "name": "ultimate-railroads",
     "title": "Ultimate Railroads",
-    "languages": ["en","de","cn"]
+    "languages": ["en","de","cn"],
+    "addedAt": "2023-07-10"
   },
   {
     "name": "roll-for-the-galaxy",
     "title": "Roll for the Galaxy",
-    "languages": ["it","en","de","cn"]
+    "languages": ["it","en","de","cn"],
+    "addedAt": "2023-10-26"
   },
   {
     "name": "carnegie",
     "title": "Carnegie",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2023-11-14"
   },
   {
     "name": "fractal",
     "title": "Fractal",
-    "languages": ["en","fr"]
+    "languages": ["en","fr"],
+    "addedAt": "2024-02-13"
   },
   {
     "name": "welcome-to-the-moon",
     "title": "Welcome to the Moon",
-    "languages": ["en","de","es","fr","ru","ko"]
+    "languages": ["en","de","es","fr","ru","ko"],
+    "addedAt": "2024-04-17"
   },
   {
     "name": "gaia-project",
     "title": "Gaia Project",
-    "languages": ["en","de","es","fr","it"]
+    "languages": ["en","de","es","fr","it"],
+    "addedAt": "2024-05-11"
   },
   {
     "name": "el-burro",
     "title": "El Burro",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2024-06-30"
   },
   {
     "name": "apiary",
     "title": "Apiary",
-    "languages": ["en","de","pt-BR"]
+    "languages": ["en","de","pt-BR"],
+    "addedAt": "2024-08-27"
   },
   {
     "name": "barrage",
     "title": "Barrage",
-    "languages": ["it","en","de"]
+    "languages": ["it","en","de"],
+    "addedAt": "2024-09-06"
   },
   {
     "name": "age-of-innovation",
     "title": "Age of Innovation",
-    "languages": ["es","en","de"]
+    "languages": ["es","en","de"],
+    "addedAt": "2024-09-13"
   },
   {
     "name": "dinogenics",
     "title": "DinoGenics",
-    "languages": ["en"]
+    "languages": ["en"],
+    "addedAt": "2024-01-11"
   },
   {
     "name": "civolution",
     "title": "Civolution",
-    "languages": ["en","de","fr","zh","es","ko","pl","it"]
+    "languages": ["en","de","fr","zh","es","ko","pl","it"],
+    "addedAt": "2024-10-26"
   },
   {
     "name": "millennia",
     "title": "Millennia: Tracks of Time",
     "languages": ["en","de"],
-    "new": false
+    "addedAt": "2024-12-29"
   },
   {
     "name": "thiefdom",
     "title": "Thiefdom",
     "languages": ["en","de"],
-    "new": false
+    "addedAt": "2025-01-05"
   },
   {
     "name": "grand-austria-hotel",
     "title": "Grand Austria Hotel",
     "languages": ["en","de"],
-    "new": false
+    "addedAt": "2025-04-06"
   },
   {
     "name": "seti",
     "title": "SETI",
     "languages": ["en","de","es"],
-    "new": false
+    "addedAt": "2025-04-15"
   },
   {
     "name": "clans-of-caledonia",
     "title": "Clans of Caledonia",
-    "languages": ["en","de","ru"]
+    "languages": ["en","de","ru"],
+    "addedAt": "2025-08-13"
   },
   {
     "name": "maracaibo",
     "title": "Maracaibo",
-    "languages": ["en","de"]
+    "languages": ["en","de"],
+    "addedAt": "2025-09-21"
   },
   {
     "name": "galactic-cruise",
     "title": "Galactic Cruise",
-    "languages": ["en","de","fr"]
+    "languages": ["en","de","fr"],
+    "addedAt": "2025-10-08"
   },
   {
     "name": "south-tigris-wayfarers",
     "title": "Wayfarers of the South Tigris",
     "languages": ["en"],
+    "addedAt": "2025-12-07",
     "new": true
   },
   {
     "name": "south-tigris-scholars",
     "title": "Scholars of the South Tigris",
     "languages": ["en"],
+    "addedAt": "2025-12-10",
     "new": true
   },
   {
     "name": "south-tigris-inventors",
     "title": "Inventors of the South Tigris",
     "languages": ["en"],
+    "addedAt": "2025-12-13",
     "new": true
   }
 ]
