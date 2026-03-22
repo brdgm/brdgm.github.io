@@ -52,23 +52,12 @@ for (const game of gamesIndex) {
 }
 
 if (updated) {
-  // Serialize with 2-space indent, but keep "languages" arrays on a single line
-  // to match the original file style
-  const PLACEHOLDER_PREFIX = '@@LANGUAGES_'
-  const compactArrays = {}
-  gamesIndex.forEach((game, i) => {
-    const key = `${PLACEHOLDER_PREFIX}${i}@@`
-    compactArrays[key] = JSON.stringify(game.languages)
-    game.languages = key
-  })
-  let json = JSON.stringify(gamesIndex, null, 2)
-  for (const [key, value] of Object.entries(compactArrays)) {
-    json = json.replace(`"${key}"`, value)
-  }
-  // Restore the actual arrays on the objects (in case they're used after)
-  gamesIndex.forEach((game, i) => {
-    game.languages = JSON.parse(compactArrays[`${PLACEHOLDER_PREFIX}${i}@@`])
-  })
+  // Serialize with 2-space indent, then collapse "languages" arrays to single lines
+  const json = JSON.stringify(gamesIndex, null, 2)
+    .replace(/"languages": \[\n\s+([\s\S]*?)\n\s+\]/g, (_, items) => {
+      const compact = items.replace(/\n\s+/g, '')
+      return `"languages": [${compact}]`
+    })
   writeFileSync(gamesIndexPath, json + '\n', 'utf-8')
   console.log('\ngames-index.json updated.')
 } else {
