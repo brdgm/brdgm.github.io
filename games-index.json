@@ -50,7 +50,7 @@
   {
     "name": "weather-machine",
     "title": "Weather Machine",
-    "languages": ["en","de","es","fr","pl"],
+    "languages": ["en","de","es","fr","pl","ko"],
     "addedAt": "2022-12-03"
   },
   {
