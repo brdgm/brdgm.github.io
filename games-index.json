@@ -196,7 +196,7 @@
   {
     "name": "south-tigris-inventors",
     "title": "Inventors of the South Tigris",
-    "languages": ["en"],
+    "languages": ["en","ko"],
     "addedAt": "2025-12-13",
     "new": true
   }
